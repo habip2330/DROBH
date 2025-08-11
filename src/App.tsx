@@ -1,6 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
+<<<<<<< HEAD
 import { Send, Coffee, AlertCircle } from 'lucide-react';
+=======
+import { Send, Coffee, AlertCircle, CheckCircle, ShoppingBag, Heart } from 'lucide-react';
+>>>>>>> 30914e0 (Initial commit: Drobh AI Asistanı)
 import './App.css';
 
 interface Message {
@@ -14,7 +18,11 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+<<<<<<< HEAD
   const [apiKey] = useState(process.env.REACT_APP_OPENAI_API_KEY || '');
+=======
+  const [apiKey] = useState(process.env.REACT_APP_OPENAI_API_KEY || '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');
+>>>>>>> 30914e0 (Initial commit: Drobh AI Asistanı)
   const [appLoaded, setAppLoaded] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 

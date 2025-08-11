@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DROBH AI Asistanı
 
 Drobh markasının "Bold & Urban Coffee" felsefesiyle çalışan AI sohbet uygulaması. OpenAI GPT-3.5 ile kahve dünyası hakkında kapsamlı bilgi verir.
@@ -10,6 +11,19 @@ Drobh markasının "Bold & Urban Coffee" felsefesiyle çalışan AI sohbet uygul
 - **Türkçe Destek**: Tamamen Türkçe arayüz ve yanıtlar
 - **Responsive Tasarım**: Mobil ve masaüstü uyumlu
 - **Selamlama Desteği**: Merhaba, nasılsın gibi selamlamalara yanıt verir
+=======
+# Kahve AI Asistanı
+
+OpenAI GPT-3.5 ile çalışan kahve temalı AI sohbet uygulaması.
+
+## 🚀 Özellikler
+
+- **Gerçek AI Sohbeti**: OpenAI GPT-3.5-turbo modeli kullanır
+- **Kahve Odaklı**: Sadece kahve ile ilgili sorulara yanıt verir
+- **Türkçe Destek**: Tamamen Türkçe arayüz ve yanıtlar
+- **Responsive Tasarım**: Mobil ve masaüstü uyumlu
+- **Hızlı Yükleme**: Optimize edilmiş performans
+>>>>>>> 30914e0 (Initial commit: Drobh AI Asistanı)
 
 ## 🛠️ Teknolojiler
 
@@ -98,6 +112,7 @@ https://habipbahceci.com/kahve-yapay-zeka
 
 ## 🎯 Kullanım
 
+<<<<<<< HEAD
 ### Drobh Marka Konuları
 - Kaldi's Gift Ethiopia
 - Safari Brew Kenya
@@ -122,6 +137,20 @@ https://habipbahceci.com/kahve-yapay-zeka
 - "Espresso nasıl yapılır?"
 - "Kahve tarihçesi hakkında bilgi ver"
 - "Arabica ve Robusta farkı nedir?"
+=======
+### Kahve Konuları
+- Espresso, latte, cappuccino
+- Demleme yöntemleri
+- Çekirdek türleri
+- Barista teknikleri
+- Kahve kültürü
+
+### Örnek Sorular
+- "Espresso nasıl yapılır?"
+- "French press ile kahve demleme"
+- "Arabica ve Robusta farkı"
+- "Latte art nasıl yapılır?"
+>>>>>>> 30914e0 (Initial commit: Drobh AI Asistanı)
 
 ## 🔒 Güvenlik
 
@@ -174,4 +203,8 @@ Sorun yaşarsanız:
 
 ---
 
+<<<<<<< HEAD
 **DROBH AI Asistanı** - Bold & Urban Coffee deneyimi ile OpenAI GPT-3.5
+=======
+**Kahve AI Asistanı** - OpenAI GPT-3.5 ile gerçek AI sohbeti
+>>>>>>> 30914e0 (Initial commit: Drobh AI Asistanı)
