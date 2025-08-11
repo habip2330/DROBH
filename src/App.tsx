@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
-import { Send, Coffee, AlertCircle, CheckCircle, ShoppingBag, Heart } from 'lucide-react';
+import { Send, Coffee, AlertCircle } from 'lucide-react';
 import './App.css';
 
 interface Message {
