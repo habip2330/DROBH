@@ -335,14 +335,6 @@ Eğer soru Drobh veya kahve ile ilgili değilse, nazikçe sadece bu konularda ya
         </div>
 
         <div className="messages-container">
-          {messages.length === 0 && (
-            <div className="welcome-message">
-              <Coffee className="welcome-icon" />
-              <h2>Drobh'a Hoş Geldiniz!</h2>
-              <p>Cesur başlangıçlar, cesur demlenmelerden doğar. Drobh'ın "Bold & Urban Coffee" deneyimi hakkında sorularınızı yanıtlayabilirim.</p>
-            </div>
-          )}
-          
           {messages.map((message) => (
             <div
               key={message.id}
