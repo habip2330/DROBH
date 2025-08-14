@@ -19,7 +19,6 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   color: var(--drobh-dark);
   line-height: 1.6;
 }
@@ -501,7 +500,6 @@ body {
   }
   
   body {
-    background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
   }
 }
 
