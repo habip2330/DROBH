@@ -1,0 +1,7 @@
+/*
+  Content-Security-Policy: frame-ancestors 'self' https://drobh.com https://www.drobh.com https://*.myshopify.com https://admin.shopify.com https://*.shopify.com;
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+  Permissions-Policy: interest-cohort=()
+*/
+

@@ -98,7 +98,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter basename="/kahve-yapay-zeka">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <AppWrapper />
       </BrowserRouter>
     </ErrorBoundary>
