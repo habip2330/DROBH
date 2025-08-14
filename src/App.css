@@ -350,7 +350,7 @@ body {
 
 .send-button {
   background: transparent;
-  color: #040404;
+  color: #ffffff;
   border: none;
   width: 40px;
   height: 40px;
@@ -371,6 +371,7 @@ body {
   background: #040404;
   cursor: not-allowed;
   opacity: 1;
+  border-radius: 50px;
 }
 
 .input-hint {
