@@ -15,7 +15,7 @@ function App() {
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [apiKey] = useState(process.env.REACT_APP_OPENAI_API_KEY || '');
-  const [appLoaded, setAppLoaded] = useState(false);
+  const [appLoaded, setAppLoaded] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -28,7 +28,6 @@ function App() {
 
   useEffect(() => {
     console.log('Drobh AI Asistanı yüklendi');
-    setAppLoaded(true);
   }, []);
 
   const isDrobhRelated = (text: string): boolean => {

@@ -98,7 +98,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/">
         <AppWrapper />
       </BrowserRouter>
     </ErrorBoundary>
