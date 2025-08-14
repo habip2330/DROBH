@@ -392,7 +392,7 @@ Eğer soru Drobh veya kahve ile ilgili değilse, nazikçe sadece bu konularda ya
           </div>
           <div className="input-hint">
             <AlertCircle size={16} />
-            <span>Sadece Drobh markası ve kahve ile ilgili sorular sorabilirsiniz</span>
+            <span className='aciklama'>Sadece Drobh markası ve kahve ile ilgili sorular sorabilirsiniz</span>
           </div>
         </div>
       </div>
