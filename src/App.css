@@ -245,7 +245,7 @@ body {
   box-shadow: none;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--drobh-dark);
+  color: #040404;
 }
 
 .user-message .message-text {
@@ -317,7 +317,7 @@ body {
   gap: 8px;
   align-items: center;
   background: transparent;
-  border-radius: 0;
+  border-radius: 30px;
   padding: 0;
   box-shadow: none;
   border: none;
@@ -364,7 +364,7 @@ body {
   justify-content: center;
   cursor: pointer;
   position: absolute;
-  right: -12px;
+  right: -60px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
