@@ -15,7 +15,6 @@ function App() {
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [apiKey] = useState(process.env.REACT_APP_OPENAI_API_KEY || '');
-  const [appLoaded, setAppLoaded] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -322,22 +321,7 @@ Eğer soru Drobh veya kahve ile ilgili değilse, nazikçe sadece bu konularda ya
     }
   };
 
-  if (!appLoaded) {
-    return (
-      <div style={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        height: '100vh',
-        fontFamily: 'Arial, sans-serif'
-      }}>
-        <div style={{ textAlign: 'center' }}>
-          <h1>Drobh AI Asistanı</h1>
-          <p>Yükleniyor...</p>
-        </div>
-      </div>
-    );
-  }
+  // Uygulama doğrudan render edilir
 
   return (
     <div className="App">
