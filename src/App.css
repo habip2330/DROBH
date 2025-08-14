@@ -212,7 +212,9 @@ body {
 
 .user-message .message-content {
   flex-direction: row;
-  margin-left: auto;
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: 0;
 }
 
 .ai-avatar {
@@ -252,6 +254,7 @@ body {
   background: transparent;
   color: #040404;
   font-weight: 600;
+  text-align: right;
 }
 
 .ai-message .message-text {
